@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DTierra Media</title>
-    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="/estilos.css">
-    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </head>
-<body class="bg" >
-    <header class="mb-5">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary ms-5">
+<body class="bordo">
+    <header class=" container">
+        <nav class=" navbar navbar-expand-lg  bg-dark container-fluid  MoverNav rounded d-block">
             <div class="container-fluid">
               <a href="/index.html"><img src="/img/IMAGEN navbar.jpg" class="img-fluid img-thumbnail rounded" width="50" height="40"></img></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,10 +20,10 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active ms-5" aria-current="page" href="/index.html">Inicio</a>
-                  <a class="nav-link ms-5" href="#">Personajes</a>
-                  <a class="nav-link ms-5" href="#">Historias</a>
-                  <a class="nav-link ms-5" href="/multimedia.html">Galeria multimedia</a>
+                    <a class="nav-link active ms-5 text-light" aria-current="page" href="/index.html">Inicio</a>
+                  <a class="nav-link ms-5 text-light" href="#">Personajes</a>
+                  <a class="nav-link ms-5 text-light" href="#">Historias</a>
+                  <a class="nav-link ms-5 text-light" href="./pages/multimedia.html">Galeria multimedia</a>
                 </div>
               </div>
             </div>
@@ -35,8 +35,26 @@
         </section>
     </main>
 
-    
-
+    <footer class="container-fluid mt-3 border  border-3">
+      <section class="row bg-dark rounded ">
+        <div class="tex col-lg-4 rounded   d-flex justify-content-center align-items-center"><p class="textoFooter">Todos los derechos reservados &copy </p>
+        </div>
+        <div class="col-lg-4 row ">
+          <div class="col-lg-12 d-flex justify-content-start"><a href=""target="_blank"><ion-icon size="large" color="light"name="logo-facebook"></ion-icon></ion-icon></a>
+          </div>
+          <div class="col-lg-12 d-flex justify-content-center"><a href=""target="_blank"><ion-icon size="large"color="light"name="logo-instagram"></ion-icon></a>
+          </div>
+          <div class="col-lg-12 d-flex justify-content-end"><a href=""target="_blank"><ion-icon size="large" color="light"name="game-controller-outline"></ion-icon></ion-icon></a>
+          </div>
+        </div>
+        <div class="row col-lg-4 d-flex justify-content-center align-items-center ">
+          <div class="col-lg-12  "><h3 class="text-light text-center d-flex justify-content-center align-items-center">Comunicate con nosotros</h3></div>
+          <div class="col-lg-12  "><p class="text-light text-center  d-flex justify-content-center align-items-center">Telefono: 4270052</p></div>
+          <div class="col-lg-12  "><p class="text-light text-center d-flex justify-content-center align-items-center" >Correo: Somotierramedia@gmail.com</p></div>
+        </div>
+      </section>
+    </footer>
+    <script src="/javascript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

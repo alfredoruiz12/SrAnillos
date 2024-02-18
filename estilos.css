@@ -1,30 +1,66 @@
 .bg {
-    text-align: center;
-    background-image: url(/img/Tierra\ media.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-     color:black;
-     padding: 100px;
-    
-   
-    
+  text-align: center;
+  background-image: url(/img/amazon1.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: black;
+  border: 50px;
+  border-radius: 40px;
+  height: 120px;
 }
 .degrad {
-    text-align: center;
-    background-image: url(/img/Tierra\ media.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
- content: "";
- width: 100%;
- min-height: 100hv;
- position: absolute;
- top: 0;
- left: 0;
- background: linear-gradient(gray);
- opacity: 0.5;
+  text-align: center;
+  background-image: url(/img/Tierra\ media.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  content: "";
+  width: 100%;
+  min-height: 100hv;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(gray);
+  opacity: 0.5;
 }
-.tex { font-size: 50px; text-shadow: 5px 5px 5px;color: rgb(110, 55, 55);
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-.amazon{font-size: 60px; text-shadow: 15px 12px 6px; color:rgb(250, 252, 252)}
+.tex {
+  font-size: 50px;
+  text-shadow: 25px 15px 15px;
+  color: rgb(168, 150, 150);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  scrollbar-shadow-color: aquamarine;
+}
+.amazon {
+  font-size: 45px;
+  text-shadow: 25px 12px 25px;
+  color: rgb(39, 30, 8);
+  text-decoration-line: underline;
+  font-family: fantasy;
+}
+
+.MoverNav {
+  margin-right: 100;
+}
+
+.cursor {
+  box-shadow: 25px 35px 40px;
+}
+
+.bordo {
+  background-color: rgb(41, 13, 13);
+}
+.textoFooter {
+  font-size: 25px;
+  text-decoration-color: rgb(189, 158, 102);
+  font-family: sans-serif;
+  text-shadow: 5px 15px 60px;
+}
+.textopFooter {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration-color: rgb(148, 128, 99);
+  font-size: 10 px;
+}
+.d-felxbible {
+  display: flex;
+}
